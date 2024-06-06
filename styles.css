@@ -1,5 +1,9 @@
-nav {
-    display: flex;
-    text-align: right;
-    
+.links {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.links a {
+    margin: 10px;
 }
