@@ -13,6 +13,27 @@ body {
     color: #ffffff;
 }
 
-.search-bar, .search-button {
-    
+.container, .search-container {
+    display: flex; 
+    align-items: center;
+}
+
+.container {
+    justify-content: center;
+    height: 100vh;
+}
+
+.search-container {
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.search-bar {
+    width: 500px;
+    padding: 10px;
+}
+
+.search-button {
+    padding: 10px 20px;
 }
