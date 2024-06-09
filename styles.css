@@ -30,8 +30,14 @@ body {
 
 
 .search-bar {
+    background-color: #202124;
     width: 500px;
     padding: 10px;
+    border-radius: 25px;
+    border-style: inherit;
+    outline-style: solid;
+    outline-width: 1px;
+    color: #cecece;
 }
 
 .search-button {
